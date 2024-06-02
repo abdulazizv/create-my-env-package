@@ -1,4 +1,3 @@
-const fs = require('node:fs');
-const config = require("./utils/config-variables.function");
+const config = require("./utils/config-variables.function.js");
 
 config();

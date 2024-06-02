@@ -1,12 +1,16 @@
 {
-  "name": "create-my-env-package",
+  "name": "myenvpackage",
   "version": "1.0.0",
+  "type": "module",
   "description": "Create node.js app for reading env variables from .env root folder.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }

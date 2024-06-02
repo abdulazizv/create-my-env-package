@@ -1,4 +1,4 @@
-export default function parseVariable(content) {
+function parseVariable(content) {
     const vars = content.split('\n');
     const response = []
     for(let x of vars) {
@@ -8,5 +8,8 @@ export default function parseVariable(content) {
 
     return response;
 }
+
+module.exports = parseVariable;
+
 
 
