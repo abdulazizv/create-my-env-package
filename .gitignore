@@ -1,0 +1,7 @@
+#node package
+node_modules
+package-lock.json
+
+# editor tools
+.idea
+.vscode

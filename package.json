@@ -1,0 +1,12 @@
+{
+  "name": "create-my-env-package",
+  "version": "1.0.0",
+  "description": "Create node.js app for reading env variables from .env root folder.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
